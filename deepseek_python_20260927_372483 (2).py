@@ -20,10 +20,10 @@ from aiogram.types import (
 load_dotenv()
 
 # --- НАСТРОЙКИ (читаются из окружения) ---
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
-BYTECOIN_API_KEY = os.getenv("BYTECOIN_API_KEY")
-AXIONNA_API_KEY = os.getenv("AXIONNA_API_KEY")
+BOT_TOKEN = os.getenv("8622460028:AAGXOwLID4FzG8nueE4H5VSlEAGZUjE-4aQ")
+ADMIN_ID = int(os.getenv("6949049864", "0"))
+BYTECOIN_API_KEY = os.getenv("bc_live_NILsKMSyZ_2Q75Y_4G9FEyCWDH5HEy8ktxAX9ORYTks")
+AXIONNA_API_KEY = os.getenv("AX-JzhYfPNwTHXiBy3TXHG0CWuM")
 
 if not BOT_TOKEN:
     raise ValueError("❌ BOT_TOKEN не задан! Проверьте .env или Environment Variables")
